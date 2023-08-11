@@ -14,6 +14,15 @@
 
 <body>
   <section>
+  <h1> Color item</h1>
+  <div class="btn-color">
+    <button data-btn-color="#4a5a1c" data-btn-background-color="#cad473">Green</button>
+    <button data-btn-color="#db8201" data-btn-background-color="#f9c701">Yellow</button>
+    <button data-btn-color="#eaa001" data-btn-background-color="#ffe11c">Orange</button>
+    <button data-btn-color="black" data-btn-background-color="" data-btn-border-color="#4fc2f8">Blue</button>
+  </div>
+</section>
+  <section>
     <h2>flex-direction</h2>
     <div class="btn-container">
       <button data-flex-direction="row">row</button>
@@ -22,11 +31,46 @@
       <button data-flex-direction="column-reverse">column-reverse</button>
     </div>
     <div class="border">
-      <div class="flex-parent">
-        <div class="flex-child">1</div>
-        <div class="flex-child">2</div>
-        <div class="flex-child">3</div>
-        <div class="flex-child">4</div>
+      <div class="flex-parent-direction">
+        <div class="flex-child-direction child">1</div>
+        <div class="flex-child-direction child">2</div>
+        <div class="flex-child-direction child">3</div>
+        <div class="flex-child-direction child">4</div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>flex-wrap</h2>
+    <div class="btn-container-wrap">
+      <button data-flex-wrap="nowrap">nowrap</button>
+      <button data-flex-wrap="wrap">wrap</button>
+      <button data-flex-wrap="wrap-reverse">wrap-reverse</button>
+    </div>
+    <div class="border">
+      <div class="flex-parent-wrap">
+        <div class="flex-child-wrap child">1</div>
+        <div class="flex-child-wrap child">2</div>
+        <div class="flex-child-wrap child">3</div>
+        <div class="flex-child-wrap child">4</div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>justify-content</h2>
+    <div class="btn-container-justify-content">
+      <button data-flex-justify-content="flex-start">flex-start</button>
+      <button data-flex-justify-content="flex-end">flex-end</button>
+      <button data-flex-justify-content="center">center</button>
+      <button data-flex-justify-content="space-between">space-between</button>
+      <button data-flex-justify-content="space-around">space-around</button>
+      <button data-flex-justify-content="space-evenly">space-evenly</button>
+    </div>
+    <div class="border">
+      <div class="flex-parent-justify-content">
+        <div class="flex-child-justify-content child">1</div>
+        <div class="flex-child-justify-content child">2</div>
+        <div class="flex-child-justify-content child">3</div>
+        <div class="flex-child-justify-content child">4</div>
       </div>
     </div>
   </section>
